@@ -13,40 +13,48 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 3%;
     font-family: "Bungee", sans-serif;
     background-color: #f5f5f5;
 }
 
 .container h1{
     font-family: "Playwrite CU Guides", cursive;
+    font-size: 1.5dvw;
 }
 
 input{
     width: 15dvw;
-    height: 8dvh;
+    height: 4dvh;
     border-radius: 50px;
     text-align: center;
-    background-color: #64DFDF;
-    font-size: 15px;
+    background-color: #48BFE3;
+    color: #2c2f33;
+    font-size: 0.8dvw;
+}
+
+input::placeholder{
+    color: #2c2f33;
 }
 
 button{
     width: 15dvw;
-    height: 8dvh;
+    height: 4dvh;
     border-radius: 50px;
     text-align: center;
-    background-color: #48BFE3;
-    color: white;
+    background-color: #5E60CE;
+    color: #f2f2f2;
+    font-weight: bold;
+    font-size: 1dvw;
 }
 
 button:hover{
-    background-color: #5E60CE; 
+    background-color: #48BFE3; 
 }
 
 .box{
     width: 25dvw;
-    height: 30dvh;
+    height: 25dvh;
     border: 2px solid #6930C3;
     border-radius: 50px;
     background-color: #80FFDB;
@@ -55,7 +63,7 @@ button:hover{
     justify-content: center;
     text-align: left;
     gap: 10px;
-    font-size: 15px;
+    font-size: 0.8dvw;
 }
 
 .box p{
