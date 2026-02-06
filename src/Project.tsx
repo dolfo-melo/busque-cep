@@ -22,7 +22,7 @@ export function Project(){
 
     return(
         <div className="container">
-            <img src=".\public\LogoReact.png" alt="logo" width={200} height={200}/>
+            <img src="./src/asset/LogoReact.png" alt="logo" width={200} height={200}/>
             <h1>Busque o seu CEP</h1>
             <input 
             value={cep}
